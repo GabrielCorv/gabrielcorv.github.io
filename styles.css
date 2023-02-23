@@ -199,6 +199,7 @@ html{
 
 .about button{
   cursor: pointer;
+  text-decoration: none;
   background-color: transparent;
   border: 0.2rem solid #fff8f8;
   width: fit-content;
@@ -209,6 +210,11 @@ html{
   color: #fff8f8;
   position: relative;
   z-index: 10;
+}
+
+.about a {
+  color: #fff8f8;
+  text-decoration: none;
 }
 
 .about button .overlay{
@@ -232,6 +238,7 @@ html{
   background-color: #3a3a3a;
   padding: 3.125rem 1.3rem;
   color: #fff8f8;
+  overflow-x: hidden;
 }
 
 .skills .container-section{
@@ -345,7 +352,7 @@ html{
 
 @keyframes  sql{
   0%{width: 0%;}
-  100%{width: 60%;}
+  100%{width: 35%;}
 }
 
 .skills .skill .comunication{
@@ -370,12 +377,12 @@ html{
 
 .skills .skill .criative{
   width: 0%;
-  animation: 5s criative forwards;
+  animation: 2s criative forwards;
 }
 
 @keyframes  criative{
   0%{width: 0%;}
-  100%{width: 300%;}
+  100%{width: 100%;}
 }
 
 .skills .skill .dedication{
@@ -385,15 +392,15 @@ html{
 
 @keyframes  dedication{
   0%{width: 0%;}
-  100%{width: 100%;}
+  100%{width: 99%;}
 }
 
-.skills .skill .saud{
+.skills .skill .management{
   width: 0%;
-  animation: 5s saud forwards;
+  animation: 5s management forwards;
 }
 
-@keyframes  saud{
+@keyframes  management{
   0%{width: 0%;}
   100%{width: 80%;}
 }
