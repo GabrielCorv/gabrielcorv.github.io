@@ -75,9 +75,10 @@ html{
   background: linear-gradient(to top, rgba(30,35,38,.8),rgba(30,35,38,.1)),
   url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77701607725.jpg);
   background-size: cover;
-  height: 100vh;
   color: #fff8f8;
   display: flex;
+  margin-top: 4.5rem;
+  padding: 5rem 0;
   align-items: center;
 }
 
@@ -571,6 +572,7 @@ html{
   color: var(--main-color);
   display: inline-block;
   margin-right: 1.2rem;
+  width: 1.25rem;
 }
 
 footer{
