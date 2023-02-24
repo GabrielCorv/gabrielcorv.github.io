@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Corv</title>
+  </head>
+  <body>
+    <!--      main menu     -->
+
+    <div class="container-header">
+      <header>
+        <div class="logo">
+          <a href="#">Corv</a>
+        </div>
+        <nav id="nav">
+          <ul>
+            <li><a href="#start" onclick="select()">Home</a></li>
+            <li><a href="#about" onclick="select()">Sobre</a></li>
+            <li><a href="#skills" onclick="select()">Skills</a></li>
+            <li><a href="#portfolio" onclick="select()">Portfólio</a></li>
+            <li><a href="#contact" onclick="select()">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="nav-responsive" onclick="showHiddenMenu()">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+      </header>
+    </div>
+
+    <!--      home      -->
+
+    <section id="start" class="start">
+      <div class="container-banner">
+        <div id="perfil-img">
+          <img src="https://media.licdn.com/dms/image/C4D03AQGA-Em8m3ffFw/profile-displayphoto-shrink_800_800/0/1639882890576?e=1682553600&v=beta&t=nU2tpNBCaG0d6zCxwCf4bq6HRxpsBN4bQDEIlvEQUZg" alt="" />
+        </div>
+        <h1>Gabriel Corv</h1>
+        <h2>Desenvolvedor Web . Front-End</h2>
+        <div class="redes">
+          <a target="_blank" href="https://wa.me/67999016084"
+            ><i class="fa-brands fa-whatsapp"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/gabriel-tomaz-a9b632216/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/GabrielCorv"
+            ><i class="fa-brands fa-github"></i></i
+          ></a>
+        </div>
+      </div>
+    </section>
+
+    <!--      about     -->
+
+    <section class="about" id="about">
+      <div class="container-section">
+        <h2>Sobre</h2>
+        <p>
+          Meu nome é Gabriel, atualmente sou Geoprocessador na empresa Geodados. Estudei Ciências Biológicas na Universidade Federal de Mato Grosso do Sul (2017~2019), atuando na área da ecologia, analise estatística e geoprocessamento. Possuo amplo conhecimento em informática e boas noções de design. Sou autodidata nas linguagens de programação JavaScrip e Python, com conhecimentos voltados para a área de devolvimento Web.
+        </p>
+
+        <div class="line">
+          <div class="column">
+            <h3>Dados Pessoais:</h3>
+            <ul>
+              <li>
+                <strong>Idade :</strong>
+                25 anos
+              </li>
+              <li>
+                <strong>Telefone :</strong>
+                +55 67 99901-6084
+              </li>
+              <li>
+                <strong>Email :</strong>
+                gabrieltmansera@gmail.com
+              </li>
+              <li>
+                <strong>Endereço :</strong>
+                São José do Rio Preto, São Paulo. Brasil.
+              </li>
+              <li>
+                <strong>Cargo Atual :</strong>
+                <span>Geoprocessador</span>
+              </li>
+            </ul>
+          </div>
+          <div class="column">
+            <h3>Interesses</h3>
+            <div class="container-interest">
+              <div class="interest">
+                <i class="fa-solid fa-gamepad"></i>
+                <span>Jogos</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-headphones"></i>
+                <span>Músicas</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-person-biking"></i>
+                <span>Ciclismo</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-cookie-bite"></i>
+                <span>Cozinha</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-cat"></i>
+                <span>Gatos</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-person-hiking"></i>
+                <span>Aventuras</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-brain"></i>
+                <span>I.A.</span>
+              </div>
+              <div class="interest">
+                <i class="fa-solid fa-motorcycle"></i>
+                <span>Motociclismo</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button>
+          <a href="https://drive.google.com/uc?export=download&id=1uoxvQcfgBuP6sHxjp2M8SroLGfuA8cqm" download>Baixar CV </a><i class="fa-solid fa-download"></i></a>
+          <span class="overlay"></span>
+        </button>
+      </div>
+    </section>
+
+    <!--      skills      -->
+    <section class="skills" id="skills">
+      <div class="conteiner-section">
+        <h2>Skills</h2>
+        <div class="line">
+          <!--      Tecnical skills       -->
+
+          <div class="column">
+            <h3>Habilidades Tecnicas:</h3>
+            <div class="skill">
+              <span>JavaScript</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv45</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>HTML & CSS</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv89</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Photoshop</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv90</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Python</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv50</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>SQL</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv35</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!--      Profissional skills     -->
+
+          <div class="column">
+            <h3>Habilidades Profisionais:</h3>
+            <div class="skill">
+              <span>Comunicação</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv95</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Trabalho em Equipe</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv79</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Criatividade</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv100</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Dedicação</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv99</span>
+                </div>
+              </div>
+            </div>
+            <div class="skill">
+              <span>Gerenciamento</span>
+              <div class="skill-bar">
+                <div class="progress">
+                  <span>lv80</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--      portifólio      -->
+    <section class="portfolio" id="portfolio">
+      <div class="container-section">
+        <h2>Portfólio</h2>
+        <div class="gallery">
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 1</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 2</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 3</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 4</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 5</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+          <div class="project">
+            <img src="img/portfolio.png" alt="" />
+            <div class="overlay">
+              <h3>Exemplo 6</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident, praesentium.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--      contact     -->
+    <section class="contact" id="contact">
+      <div class="container-section">
+        <h2>Contato</h2>
+        <div class="line">
+          <!--      form      -->
+          <div class="column">
+            <form
+              action="https://formsubmit.co/gabrieltmansera@gmail.com"
+              method="POST"
+            >
+              <input type="text" name="name" placeholder="Nome" />
+              <input type="text" name="number" placeholder="Número" />
+              <input type="text" name="location" placeholder="Endereço" />
+              <input type="text" name="about" placeholder="Assunto" />
+              <textarea
+                name="messenge"
+                id=""
+                rows="10"
+                placeholder="Mensagem"
+              ></textarea>
+              <button type="submit">
+                Enviar
+                <i class="fa-solid fa-paper-plane"></i>
+                <span class="overlay"></span>
+              </button>
+            </form>
+          </div>
+          <div class="column">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d74749.52139933537!2d-49.38026175419129!3d-20.810441575166678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1676847532997!5m2!1spt-BR!2sbr"
+              width="400"
+              height="446"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+            <div class="info">
+              <ul>
+                <li>
+                  <i class="fa-solid fa-location-dot"></i>
+                   São José do Rio Preto, São Paulo. Brasil.
+                </li>
+                <li>
+                  <i class="fa-solid fa-mobile-retro"></i>
+                   Contato: +55 67 99901-6084
+                </li>
+                <li>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email: gabrieltmansera@gmail.com
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--      footer      -->
+    <footer>
+      <a href="#start" class="upper">
+        <i class="fa-solid fa-angle-up"></i>
+      </a>
+      <div class="redes">
+         <a target="_blank" href="https://wa.me/67999016084"
+            ><i class="fa-brands fa-whatsapp"></i></a>
+          <a target="_blank" href="https://www.linkedin.com/in/gabriel-tomaz-a9b632216/"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+          <a target="_blank" href="https://github.com/GabrielCorv"
+            ><i class="fa-brands fa-github"></i></i
+          ></a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+  </body>
+</html>
